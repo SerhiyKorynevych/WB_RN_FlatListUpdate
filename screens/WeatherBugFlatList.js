@@ -47,6 +47,7 @@ const DATA = [
 
 
 const  WeatherBugFlatList = props => (
+
         <FlatList
             data={DATA}
             renderItem={ListItem}
